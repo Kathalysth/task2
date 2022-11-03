@@ -56,8 +56,8 @@ const Contact = () => {
               <FormGroup check inline>
                 <Input name="agreement" id="agreement" type="checkbox" />
                 <Label htmlFor="agreement" className="ms-1">
-                  You agree to providing your data<strong> Zuri</strong>, who
-                  may contact you?
+                  You agree to providing your data
+                  <strong> Bishopsirchris</strong>, who may contact you?
                 </Label>
               </FormGroup>
             </Col>
