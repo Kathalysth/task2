@@ -1,12 +1,14 @@
-import Profile from './features/Profile'
+import Links from "./features/Links";
+import Profile from "./features/Profile";
 
 function App() {
-
   return (
-   <main className='container app'>
-    <Profile />
-   </main>
-  )
+    <main className="container app">
+      <Profile />
+      <br />
+      <Links />
+    </main>
+  );
 }
 
-export default App
+export default App;
