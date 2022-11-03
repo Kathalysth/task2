@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const Links = () => {
   const links = [
     { id: "btn__zuri", link: "https://training.zuri.team/", name: "Zuri Team" },
@@ -46,10 +47,10 @@ const Links = () => {
       <ul className="list-unstyled ">
         {renderLinks(links)}
         <li className="mt-4">
-          <a href="/contact" id="contact">
+          <Link to="/contact" id="contact">
             <span className="fw-bolder">Contact Me</span>
             <small>Get In Touch!</small>
-          </a>
+          </Link>
         </li>
       </ul>
     </section>
