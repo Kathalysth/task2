@@ -1,6 +1,7 @@
 import Footer from "./features/Footer";
 import Links from "./features/Links";
 import Profile from "./features/Profile";
+import Socials from "./features/Socials";
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
       <Profile />
       <br />
       <Links />
+      <br />
+      <Socials />
       <br />
       <br />
       <Footer />
