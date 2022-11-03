@@ -12,7 +12,7 @@
     - A button with an id of ‘btn__submit’ that will submit the form.
     - All fields should have appropriate label tags
 
-## Criteria
+## Requirements
 -  Use Only React.Js and React-Router-DOM to complete this task. (React.Ts, Next.Ts/Next.Js, Gatsby etc. are NOT Allowed)
 -  You may use any CSS Framework/Library or CSS Preprocessor of your choice for styling.
 -  Make sure you Implement the UI Design on Figma and also Follow all the instructions here.
