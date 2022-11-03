@@ -1,5 +1,4 @@
 import React from "react";
-
 const Links = () => {
   const links = [
     { id: "btn__zuri", link: "https://training.zuri.team/", name: "Zuri Team" },
@@ -29,18 +28,12 @@ const Links = () => {
       subtext: "Want to explore the ABC of good design? get started!",
       name: "Design Book",
     },
-    {
-      id: "contact",
-      link: "/contact",
-      subtext: "Get in touch!",
-      name: "Contact Me",
-    },
   ];
   //**Renders links */
   const renderLinks = (links) => {
     return links.map((link, index) => (
       <li key={`${link.id}-${index}`} className="mt-4">
-        <a href={link.link} id={link.id} target="_blank">
+        <a href={link.link} id={link.id}>
           <span className="fw-bolder">{link.name}</span>
           {link.subtext && <small>{link.subtext}</small>}
         </a>
@@ -50,7 +43,15 @@ const Links = () => {
 
   return (
     <section className="app-links">
-      <ul className="list-unstyled ">{renderLinks(links)}</ul>
+      <ul className="list-unstyled ">
+        {renderLinks(links)}
+        <li className="mt-4">
+          <a href="/contact" id="contact">
+            <span className="fw-bolder">Contact Me</span>
+            <small>Get In Touch!</small>
+          </a>
+        </li>
+      </ul>
     </section>
   );
 };
