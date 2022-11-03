@@ -35,7 +35,7 @@ const Contact = () => {
                 name="email"
                 id="email"
                 type="email"
-                placeholder="yourname@example.com"
+                placeholder="yourname@email.com"
               />
             </Col>
           </Row>
