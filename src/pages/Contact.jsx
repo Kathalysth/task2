@@ -1,9 +1,13 @@
 import React from "react";
 import { Input, Label, Row, Col, Form, Button, FormGroup } from "reactstrap";
+import { Helmet } from "react-helmet-async";
 import Footer from "../features/Footer";
 const Contact = () => {
   return (
     <main className="container app">
+      <Helmet>
+        <title>Linktree App - Contact</title>
+      </Helmet>
       <div className="col-12 col-md-9 mx-auto">
         <h2 className="fw-bolder">Contact Me</h2>
         <span>
@@ -69,7 +73,6 @@ const Contact = () => {
         <br />
         <br />
       </div>
-      <hr />
       <Footer />
     </main>
   );
