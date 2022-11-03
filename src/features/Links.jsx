@@ -33,7 +33,7 @@ const Links = () => {
   const renderLinks = (links) => {
     return links.map((link, index) => (
       <li key={`${link.id}-${index}`} className="mt-4">
-        <a href={link.link} id={link.id}>
+        <a href={link.link} id={link.id} target="_blank">
           <span className="fw-bolder">{link.name}</span>
           {link.subtext && <small>{link.subtext}</small>}
         </a>

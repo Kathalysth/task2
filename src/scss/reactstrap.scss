@@ -1,0 +1,13 @@
+//Buttons
+@import "./variables";
+
+.form-control:focus,
+.btn:focus-visible,
+.form-check-input:focus {
+  border-color: $primary;
+  box-shadow: none;
+}
+
+.form-check-input:checked {
+  border-color: $primary;
+}

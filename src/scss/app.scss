@@ -1,4 +1,7 @@
 .app {
+  textarea {
+    resize: none;
+  }
   font-family: "Public Sans", Arial;
   padding: 2rem 1rem;
   .image-wrapper {
@@ -46,9 +49,9 @@
     visibility: hidden;
   }
   .app-links {
-    small{
+    small {
       color: lighten($color: black, $amount: 30);
-      font-size: .8rem;
+      font-size: 0.8rem;
     }
     & > ul > li {
       color: black;
@@ -68,8 +71,8 @@
         &:hover {
           background-color: darken($color: #eaecf0, $amount: 20);
           color: invert($color: #000000);
-          small{
-           color: lighten($color: invert(black), $amount: 20)
+          small {
+            color: lighten($color: invert(black), $amount: 20);
           }
         }
       }
