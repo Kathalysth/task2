@@ -21,11 +21,17 @@ const Contact = () => {
                 name="first_name"
                 id="first_name"
                 placeholder="First Name"
+                required
               />
             </Col>
             <Col sm="12" md="6">
               <Label htmlFor="last_name">Last Name</Label>
-              <Input name="last_name" id="last_name" placeholder="Last Name" />
+              <Input
+                name="last_name"
+                id="last_name"
+                placeholder="Last Name"
+                required
+              />
             </Col>
           </Row>
           <Row className="mb-2">
@@ -36,6 +42,7 @@ const Contact = () => {
                 id="email"
                 type="email"
                 placeholder="yourname@email.com"
+                required
               />
             </Col>
           </Row>
@@ -47,6 +54,7 @@ const Contact = () => {
                 id="message"
                 type="textarea"
                 rows="5"
+                required
                 placeholder="Send a message and i'll reply you as soon as possible..."
               />
             </Col>
@@ -54,7 +62,12 @@ const Contact = () => {
           <Row className="mb-4">
             <Col sm="12">
               <FormGroup check inline>
-                <Input name="agreement" id="agreement" type="checkbox" />
+                <Input
+                  name="agreement"
+                  id="agreement"
+                  type="checkbox"
+                  required
+                />
                 <Label htmlFor="agreement" className="ms-1">
                   You agree to providing your data
                   <strong> Bishopsirchris</strong>, who may contact you?
